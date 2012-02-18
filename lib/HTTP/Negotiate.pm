@@ -1,6 +1,6 @@
 package HTTP::Negotiate;
 
-$VERSION = "6.00";
+$VERSION = "6.01";
 sub Version { $VERSION; }
 
 require Exporter;
