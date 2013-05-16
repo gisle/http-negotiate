@@ -165,7 +165,7 @@ sub choose ($;$)
 	if ($lang && exists $accept{'language'}) {
 	    my @lang = ref($lang) ? @$lang : ($lang);
 	    # If any of the variant's content languages are listed
-	    # in the Accept-Language field, the the value assigned is
+	    # in the Accept-Language field, the value assigned is
 	    # the largest of the "q" parameter values for those language
 	    # tags.
 	    my $q = undef;
