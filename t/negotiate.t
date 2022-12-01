@@ -106,7 +106,7 @@ sub show_res
 {
     print "-------------\n";
     for (@_) {
-	printf "%-6s %.3f\n", @$_;
+	printf "%-6s %.3f %6d\n", @$_;
     }
     print "-------------\n";
 }
